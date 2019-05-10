@@ -11,4 +11,8 @@ import Foundation
 class Pessoa {
     var nome: String = "Anderson"
     var idade: Int = 40
+    
+    func getNome() -> String {
+        return nome
+    }
 }
